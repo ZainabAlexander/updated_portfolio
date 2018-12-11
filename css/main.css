@@ -10,7 +10,7 @@ p {
 footer {
   width: 95%;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: black;
   padding: 40px;
   color: white;
   margin: 0 auto;
@@ -37,10 +37,20 @@ h1 {
   text-transform: uppercase;
   font-size: 30px; }
 
+h2 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center; }
+
 img {
   justify-content: center;
   text-align: center;
-  padding-left: 180px; }
+  padding-left: 0px;
+  margin-left: 175px; }
 
 img:hover {
   filter: brightness(80%);
@@ -69,6 +79,10 @@ img:hover {
 .fa-facebook {
   background: #3B5998;
   color: white; }
+
+.fa-envelope {
+  background-color: white;
+  color: black; }
 
 /* Twitter */
 .fa-twitter {
@@ -106,10 +120,9 @@ img:hover {
 
 .dev-name {
   display: block;
-  margin: 0 auto;
   position: relative;
   width: 60%;
-  padding: 30px;
+  padding: 20px;
   color: #666666;
   height: 50%;
   letter-spacing: 1px;
@@ -139,6 +152,20 @@ img:hover {
   padding-right: 300px;
   text-align: center;
   line-height: 1.5; }
+
+.image_block > img {
+  background-color: #eee4e4;
+  /* Needed for IEs */
+  -moz-box-shadow: 5px 5px 5px #eee4e4;
+  -webkit-box-shadow: 5px 5px 5px 238, 228, 228;
+  box-shadow: 5px 5px 5px 238, 228, 228;
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+  zoom: 1; }
+
+.dev-name {
+  background-image: url(../images/logo4.png);
+  background-repeat: no-repeat; }
 
 .navbar {
   position: sticky;
@@ -172,6 +199,9 @@ img:hover {
 #services {
   background-color: #f9f9f9; }
 
+#background {
+  background-color: #f9f9f9; }
+
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -191,7 +221,13 @@ img:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 200px;
-  padding: 20px; }
+  padding: 20px;
+  text-align: center; }
+  .background ul li {
+    text-align: center;
+    list-style: none;
+    line-height: 1.5;
+    font-weight: 300; }
 
 .container {
   padding-right: 15px;

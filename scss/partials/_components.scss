@@ -25,6 +25,10 @@
     background: #3B5998;
     color: white;
 }
+.fa-envelope{
+    background-color: white;
+    color:black;
+}
 
 /* Twitter */
 .fa-twitter {
@@ -47,10 +51,9 @@
 
 .dev-name {
     display: block;
-    margin: 0 auto;
     position: relative;
     width: 60%;
-    padding: 30px;
+    padding: 20px;
     color: #666666;
     height: 50%;
     letter-spacing: 1px;
@@ -89,3 +92,21 @@ padding-right:50px;
        
     }
 }
+
+
+.image_block >img{
+    background-color: rgb(238, 228, 228); /* Needed for IEs */
+  
+    -moz-box-shadow: 5px 5px 5px rgb(238, 228, 228);
+    -webkit-box-shadow: 5px 5px 5px (238, 228, 228);
+    box-shadow: 5px 5px 5px (238, 228, 228);
+  
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+  }
+
+  .dev-name{
+      background-image: url(../images/logo4.png);
+      background-repeat: no-repeat;
+  }

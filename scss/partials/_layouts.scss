@@ -35,6 +35,9 @@
     background-color: #f9f9f9;
 
 }
+#background{
+    background-color: #f9f9f9;
+}
 
 .services{
     display:grid;
@@ -58,6 +61,13 @@
     grid-template-columns:1fr 1fr;
     height:200px;
     padding:20px;
+    text-align: center;
+    ul li{
+        text-align: center;
+        list-style: none;
+        line-height:1.5;
+        font-weight:300;
+    }
 }
 
 .container{
