@@ -42,6 +42,7 @@
     @include heading;
     top:20%;
     text-decoration: none;
+    padding: 40px 50px;
 }
 
 .secondary-heading{
@@ -60,6 +61,7 @@
     text-transform: uppercase;
     font-size: 24px;
     text-align: left; 
+    font-family: 'Permanent Marker', cursive;
 }
 .navList{
     position: relative;
@@ -85,28 +87,9 @@ padding-right:50px;
 .about{
     p{
     max-width:800px;
-    padding-left:300px;
-    padding-right:300px;
+    padding-left:25%;
     text-align:center;
     line-height: 1.5;
        
     }
 }
-
-
-.image_block >img{
-    background-color: rgb(238, 228, 228); /* Needed for IEs */
-  
-    -moz-box-shadow: 5px 5px 5px rgb(238, 228, 228);
-    -webkit-box-shadow: 5px 5px 5px (238, 228, 228);
-    box-shadow: 5px 5px 5px (238, 228, 228);
-  
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
-    zoom: 1;
-  }
-
-  .dev-name{
-      background-image: url(../images/logo4.png);
-      background-repeat: no-repeat;
-  }
